@@ -18,7 +18,7 @@ function reverseString(text){
         result += text[i]
     }
     return result
-}
+} // i is the end of str.length, counts backward concatenating till the start
 
 function reverseString(text) {
     let result = ''
